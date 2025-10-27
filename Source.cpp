@@ -7,10 +7,14 @@ int tong(int a, int b){
 int hieu(int a, int b);
 int tich(int a, int b);
 float thuong(int a, int b);
+int hinhVuong(int a){
+	return a * a;
+}
 int main()
 {
 	cout << "DAY LA CHUONG TRINH DE THUC HANH GIT";
 	cout<<"tong = " << tong(5,6);
+	cout<<"Dien tich hinh vuong = "<<hinhVuong(5);
 	system("pause");
 	return 0;
 }
